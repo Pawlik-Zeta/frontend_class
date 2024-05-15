@@ -1,0 +1,123 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    background: #AEE7EE;
+}
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 1110px;
+    margin: 0 auto;
+    border-radius: 50px;
+    background: #FFFFFF;
+}
+.image{
+    width: 152px;
+    height: 152px;
+}
+.main-section{
+    margin: 85px 0;
+}
+h1, h2{
+    margin: 0;
+}
+.main-title{
+    padding-top: 70px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    color: #464652;
+    text-align: center;
+    font-size: 50px;
+}
+.subtitle{
+    font-size: 25px;
+    color: #FBB2BD;
+    margin-bottom: 95px;
+    text-align: center;
+}
+.row>div{
+    display: flex;
+    gap: 45px;
+    margin-bottom: 150px;
+}
+.row>div:nth-child(1){
+    justify-content: end;
+}
+.row>div:nth-child(2){
+    justify-content: center;
+}
+.row>div:nth-child(3){
+    justify-content: start;
+}
+.row>div:nth-child(4){
+    justify-content: space-around;
+}
+.row>div:nth-child(5){
+    justify-content: space-around;
+    justify-content: space-between;
+}
+.row>div:nth-child(6){
+    width: 546px;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+
+.column{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 185px;
+}
+.column>div{
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+.column>div:nth-child(1)>.image_border{
+    order: 1;
+}
+.column>div:nth-child(2){
+    gap: 0;
+    flex-direction: column-reverse;
+}
+
+.column>div:nth-child(3)>.image:nth-child(1){
+    order: -1;
+}
+/* .column>div:nth-child(3)>.image:nth-child(2){
+    order: 3;
+} */
+/* .column>div:nth-child(3)>.image:nth-child(3){
+    order: 2;
+} */
+/* .column>div:nth-child(3)>.image:nth-child(4){
+    order: 4;
+} */
+/* .column>div:nth-child(3)>.image:nth-child(5){
+    order: 5;
+} */
+
+.column-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 150px;
+}
+.column-wrap>div{   
+    width: 392px;
+    height: 546px;
+    column-gap: 88px;
+    row-gap: 45px;
+    display: flex;
+    flex-flow: column wrap;
+}
+.column-wrap>div:nth-child(2){
+    justify-content: center;
+}
+.column-wrap>div:nth-child(3){
+    margin: 0 auto;
+    margin-bottom: 185px;
+    flex-flow: row wrap;
+}
