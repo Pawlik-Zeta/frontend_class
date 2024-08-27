@@ -1,0 +1,224 @@
+body{
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: "Prompt", sans-serif;
+    font-size: 14px;
+    background: #FFF6EF;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
+h2, h3{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    
+}
+button{
+    border: none;
+}
+.container{
+    margin: 0 auto;
+    width: 1110px;
+    padding: 0;
+}
+
+
+.header{
+    padding: 10px 0;
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+.button{
+    width: 160px;
+    height: 40px;
+    background: #6A9B96;
+    font-family: "Proxima Nova", sans-serif;
+}
+.menu-list{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin: 0;
+}
+.logo{
+    width: 32px;
+    height: 32px;
+    display: block;
+    background-image: url(../img/logo.svg);
+}
+.section:nth-child(2){
+    margin-top: 70px;
+}
+.slide{
+    height: 600px;
+}
+.carousel-indicators{
+    top: 620px;;
+}
+.carousel-indicators [data-bs-target]{
+    background: #6A9B96;
+    width: 13px;
+    height: 16px;
+    border: none;
+    margin-right: 16px;
+    margin-left: 0;
+}
+.carousel-control-prev-icon{
+    width: 20px;
+    height: 40px;
+    background-image: url(../img/Vector.png);
+}
+.carousel-control-next-icon{
+    width: 20px;
+    height: 40px;
+    background-image: url(../img/Next.png);
+}
+.section:nth-child(3){
+    margin-top: 160px;
+}
+.section-title{
+    font-size: 30px;
+    font-weight: 300;
+}
+.content-wrapper{
+    margin-top: 75px;
+}
+.text-wrapper{
+    display: flex;
+    width: 446px;
+    height: 100px;
+    border-radius: 20px;
+    font-weight: 400;
+    background: #FBDCC7;
+}
+.text-wrapper>h2{
+    font-weight: 400;
+    text-decoration: none;
+}
+.modal-dialog{
+    margin: 0 auto;
+    top: 30%;
+}
+.modal-content{
+    width: 630px;
+    height: 350px;  
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.modal-header{
+    position: relative;
+    border: none;
+    padding-top: 40px;
+    padding-bottom: 0;
+}
+.modal-title{
+    font-weight: 400;
+    width: 210px;
+    height: 42px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-close{
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    left: 360px;
+    background-image: url(../img/Modal-Close.png);
+}
+.modal-body{
+    width: 392px;
+    height: 105px;
+    padding: 0;
+    padding-top: 63px;
+    font-weight: 400;
+    font-size: 15px;
+}
+.nav .nav-link.active{
+    width: 139px;
+    height: 50px;
+    border-radius: 20px 20px 0 0;
+    background-color: #6A9B96;
+}
+.nav.nav-tabs{
+    border-bottom: 0;
+}
+.nav-link[data-bs-toggle]{
+    width: 139px;
+    height: 50px;
+    border: none;
+    font-size: 15px;
+    color: #000000;
+    border-radius: 20px 20px 0 0;
+    border: none;
+}
+.tab-content{
+    display: flex;
+    width: 635px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 0 20px 20px;
+    background: #C3D2CB;
+}
+.tab-pane{
+    width: 485px;
+    font-size: 15px;
+    font-weight:400;
+}
+span{
+    font-weight: bold;
+}
+.section:nth-child(4){
+    margin-top: 120px;
+}
+.accordion{
+    margin: 0 auto;
+    width: 730px;
+    margin-top: 92px;
+}
+.accordion-item{
+    border: none;
+}
+.accordion-item:first-child{
+    border-radius: 20px 20px 0 0;
+}
+.accordion-item:last-child{
+    border-radius: 0 0 20px 20px;
+}
+.accordion-header{
+    text-decoration: none;
+}
+.accordion-button[data-bs-toggle]{
+    background: #FBDCC7;
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+}
+.accordion-item:first-child>.accordion-header>.accordion-button{
+    border-radius: 20px 20px 0 0;   
+}
+.accordion-item:last-child>.accordion-header>.collapsed[data-bs-toggle]{
+    border-radius: 0 0 20px 20px;
+}
+
+.accordion-body{
+    padding: 21px 25px;
+}
+.footer{
+    margin-top: 120px;
+    padding: 25px 0;
+}
+.footer-title{
+    font-size: 16px;
+    font-weight: 300;
+}
